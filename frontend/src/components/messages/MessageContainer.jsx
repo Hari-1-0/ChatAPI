@@ -41,7 +41,6 @@ export default MessageContainer;
 
 import SettingsMenu from "./SettingsMenu";
 import LogoutButton from "../sidebar/LogoutButton";
-// import ProfilePicUpload from "./ProfilePicUpload";
 
 const NoChatSelected = () => {
 	const { authUser } = useAuthContext();
@@ -66,14 +65,6 @@ const NoChatSelected = () => {
 					<SettingsMenu />
 				</div>
 			</div>
-
-			{/* <div className='px-4 text-center sm:text-lg md:text-xl text-gray-200 font-semibold flex flex-col items-center gap-2'>
-				<p>Welcome 👋</p>
-				<p>Select a chat to start messaging</p>
-				<p>or...</p>
-				<p>Read some news</p>
-				<TiMessages className='text-3xl md:text-7xl text-center' />
-			</div> */}
 			<div className='px-4 text-center sm:text-lg md:text-xl text-gray-200 font-semibold flex flex-col items-center gap-2'>
 				<p className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 font-bold text-4xl">
 					Welcome to ChatAPI
