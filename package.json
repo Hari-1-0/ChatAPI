@@ -1,12 +1,16 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.3",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "global": "^4.4.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
     "Router": "^2.1.0",
     "socket.io": "^4.7.5"
   },
@@ -18,11 +22,13 @@
   },
   "scripts": {
     "server": "nodemon backend/server.js",
-		"start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "proxy": "http://localhost:5000"
 }
