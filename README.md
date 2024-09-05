@@ -46,8 +46,8 @@ npm start
 #### Access the app:
 Open your browser and go to http://localhost:5000
 
-## Technologies Used:
-**Frontend**: React, CSS
+## Technologies Used
+**Frontend**: React, Tailwind CSS
 
 **Backend**: Node.js, Express.js, MongoDB
 
@@ -55,8 +55,8 @@ Open your browser and go to http://localhost:5000
 
 **Authentication**: JWT
 
-## Contributing:
+## Contributing
 Feel free to submit issues or pull requests. Contributions are welcome!
 
-## License:
+## License
 This project is licensed under the MIT License.
