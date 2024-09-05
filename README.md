@@ -19,3 +19,9 @@ cd ChatAPI
 ```bash
 npm install
 ```
+
+### Set up the frontend:
+```bash
+cd frontend
+npm install
+```
