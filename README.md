@@ -48,6 +48,7 @@ Open your browser and go to http://localhost:5000
 
 ## Technologies Used:
 **Frontend**: React, CSS
+
 **Backend**: Node.js, Express.js, MongoDB
 **APIs**: OpenWeather, News API, OpenAI API
 **Authentication**: JWT
