@@ -46,8 +46,14 @@ npm start
 #### Access the app:
 Open your browser and go to http://localhost:5000
 
-##Technologies Used:
+## Technologies Used:
 **Frontend**: React, CSS
 **Backend**: Node.js, Express.js, MongoDB
 **APIs**: OpenWeather, News API, OpenAI API
 **Authentication**: JWT
+
+## Contributing:
+Feel free to submit issues or pull requests. Contributions are welcome!
+
+## License:
+This project is licensed under the MIT License.
