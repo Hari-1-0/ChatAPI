@@ -8,3 +8,14 @@ ChatAPI is a **full-stack chat application** built with the *MERN stack* and dep
 - **API Integration**: Beside the conversation panel is the API section, where users can enter their city/location to get real-time weather updates and/or read the latest news articles according to the topic and country code of interest.
 
 ## Installation
+
+### Clone the repository:
+```bash
+git clone https://github.com/Hari-1-0/ChatAPI.git
+cd ChatAPI
+```
+
+### Set up the backend:
+```bash
+npm install
+```
