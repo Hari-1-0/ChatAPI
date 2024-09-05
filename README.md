@@ -1,2 +1,10 @@
 # ChatAPI
-ChatAPI is a **full-stack chat application** built with the *MERN stack* and deployed on Render. The app allows users to to message their friends, retrieve weather and news details according to user preference with a click, and choose their own themes and notification sounds for a personalized web interface.
+ChatAPI is a **full-stack chat application** built with the *MERN stack* and deployed on Render. The app allows users to message their friends, retrieve weather and news details according to user preference with a click, and choose their own themes and notification sounds for a personalized web interface.
+
+## Features
+- **User Authentication**: Users can register and log in using JWT authentication and maintain the login state across page reloads through cookies.
+- **User Profiles**: Each user has a profile with a username they enter upon siging up and a default profile picture according to their gender.
+- **Conversations**: Users can text other users effortlessly and get instantanious updates thanks to real-time messages, customizable notification sounds and stylish chat bubbles.
+- **API Integration**: Beside the conversation panel is the API section, where users can enter their city/location to get real-time weather updates and/or read the latest news articles according to the topic and country code of interest.
+
+## Installation
